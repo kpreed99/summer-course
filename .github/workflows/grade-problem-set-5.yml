@@ -18,7 +18,7 @@ jobs:
     # Steps use continue-on-error so all functions are tested even if one fails.
     # ---------------------------------------------------------------------------
     problem-1:
-        name: "Problem 1 — Basic Recursino"
+        name: "Problem 1 — Basic Recursion"
         runs-on: ubuntu-latest
         env:
             SOLUTION_MODE: ${{ github.repository == 'AFC-AI2C/summer-course' && github.event_name == 'workflow_dispatch' && 'true' || '' }}

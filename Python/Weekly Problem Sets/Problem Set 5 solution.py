@@ -9,10 +9,11 @@ def recursive_squares(num: int) -> list[int]:
     if num == 1:
         return [1]
 
-    square = num ** 2
-    result = [square]
     # recursive step
     childs_list = recursive_squares(num - 1)
-    result.extend(childs_list)
+    
+    # add our number to child's
+    square = num ** 2
+    childs_list.append(square)
 
-    return result
+    return childs_list

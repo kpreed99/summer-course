@@ -44,3 +44,9 @@
 #     print("D")
 # else:
 #     print("F")
+
+number = int(input("Enter an even number "))
+while number %2 != 0:
+    print("This is an odd number")
+    number = int(input("Enter and even number "))
+print ("Good Job, That is an even number!")

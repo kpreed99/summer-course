@@ -68,8 +68,12 @@
 #     print(number, end=" ")
 
 
-for number in range(2,31,2):
-    print(number, end=" ")
+# for number in range(2,31):
+#     if(number % 2 == 0):
+#         print(number, end=" ")
+
+# for number in range(2,31,2): 
+#     print(number, end=" ")
 
 # for number in range(20,-1,-2):
 #     print(number, end=" ")

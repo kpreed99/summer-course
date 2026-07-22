@@ -39,4 +39,20 @@
 # def compound_interest(principal, interest, n: int = 1, t: int):
 #     return principal * (1 + interest/number_of_times_compound) ** (n * t)
 
+# import random
 
+# numbers = random.randint(50, 101)
+
+# with open('pe.txt', 'w') as file:
+#     for line in range(100):
+#         random_numbers = random.randint(50, 101)
+#         file.write(str(random_numbers) + "\n")
+
+# with open('pe.txt', 'r') as input_file:
+#     lines = file.readlines()
+#     for line in lines:
+#         print(line.strip())
+
+import os
+
+print(os.getcwd())

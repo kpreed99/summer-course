@@ -266,3 +266,5 @@ Backup of *.doc*
 *.~vsd*
 
 Python/Lesson 05 - File IO/file.txt
+
+preclass_venv/

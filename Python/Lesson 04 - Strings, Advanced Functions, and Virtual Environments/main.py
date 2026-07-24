@@ -1,4 +1,7 @@
-# from area import circle_area
 
-# radius = 10
-# print(circle_area(radius))
+
+passenger_list = ["Lopez", "Chen", "Okafor", "Smith", "Patel"]
+
+for index, passenger in enumerate(passenger_list, 1):
+    print(f"Passenger {passenger} in seat {index}")
+

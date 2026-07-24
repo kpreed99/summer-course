@@ -28,3 +28,8 @@ with open('preclass.txt', 'w') as file:
 
 with open('preclass.txt', 'r') as file:
     lines = file.readlines()
+
+numbers = []
+
+for line in lines:
+    numbers.append(int(lines.strip()))

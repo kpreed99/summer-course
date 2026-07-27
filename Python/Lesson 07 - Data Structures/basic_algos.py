@@ -5,19 +5,19 @@
 # What is the output of this block of code?
 
 
-def mut_example(list1, list2, list3):
-    if len(list1) > 2:
-        list1 = list1[:2]
-    list2[0] = "hi"
-    list3 = "".join(list2)
+# def mut_example(list1, list2, list3):
+#     if len(list1) > 2:
+#         list1 = list1[:2]
+#     list2[0] = "hi"
+#     list3 = "".join(list2)
 
-a_list = [1, 2, 3]
-b_list = ["a", "b", "c"]
-a_str = "do-re-mi"
-mut_example(a_list, b_list, a_str)
-print(a_list)
-print(b_list)
-print(a_str)
+# a_list = [1, 2, 3]
+# b_list = ["a", "b", "c"]
+# a_str = "do-re-mi"
+# mut_example(a_list, b_list, a_str)
+# print(a_list)
+# print(b_list)
+# print(a_str)
 
 
 
@@ -35,8 +35,21 @@ print(a_str)
 # Exercise 3
 
 # Write a function that doubles the elements in a list.
+def double_list(list1):
+    return [x * 2 for x in list1]
+    
+    
 
+a_list = [1, 2, 3]
+b_list = ["a", "b", "c"]
+a_str = "do-re-mi"
 
+aa_list = double_list(a_list) 
+bb_list = double_list(b_list) 
+aa_str = double_list(a_str)
+print(aa_list)
+print(bb_list)
+print(aa_str)
 # Do you need to return anything here?
 
 

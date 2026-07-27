@@ -33,28 +33,28 @@
 
 # for line in lines:
 #     numbers.append(int(lines.strip()))
-import math
+# import math
 
-print("=" * 3,"PIZZA PARTY PLANNER", "=" * 3)
-guest = int(input("How many guests?: "))
-slices = int(input("How many slices per person?: "))
-pizza_slices = int(input("How many slices per pizza?: "))
+# print("=" * 3,"PIZZA PARTY PLANNER", "=" * 3)
+# guest = int(input("How many guests?: "))
+# slices = int(input("How many slices per person?: "))
+# pizza_slices = int(input("How many slices per pizza?: "))
 
-def pizzas_needed(people, slices_per_person, slices_per_pizza):
-    return (people * slices_per_person) / slices_per_pizza
+# def pizzas_needed(people, slices_per_person, slices_per_pizza):
+#     return (people * slices_per_person) / slices_per_pizza
  
 
-def leftover_slices(people, slices_per_person):
-    slices_needed = people * slices_per_person
-    total_slices = pizzas * pizza_slices
-    return (total_slices - slices_needed)
+# def leftover_slices(people, slices_per_person):
+#     slices_needed = people * slices_per_person
+#     total_slices = pizzas * pizza_slices
+#     return (total_slices - slices_needed)
 
-pizzas = math.ceil(pizzas_needed(guest, slices, pizza_slices))
-total_slices = pizzas * pizza_slices
-remaining = leftover_slices(guest, slices)
+# pizzas = math.ceil(pizzas_needed(guest, slices, pizza_slices))
+# total_slices = pizzas * pizza_slices
+# remaining = leftover_slices(guest, slices)
 
-print("=" * 3,"PARTY SUMMARY", "=" * 3)
-print(f"Guests: {guest}")
-print(f"Pizzas to order: {pizzas}")
-print(f"Total slices: {total_slices}")
-print(f"Leftover slices: {remaining}")
+# print("=" * 3,"PARTY SUMMARY", "=" * 3)
+# print(f"Guests: {guest}")
+# print(f"Pizzas to order: {pizzas}")
+# print(f"Total slices: {total_slices}")
+# print(f"Leftover slices: {remaining}")
